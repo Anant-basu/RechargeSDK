@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         textView = findViewById(R.id.hello_world)
-        Picasso.get().load("")
         SimpleToast.showToast("Hello", this)
     }
 }
